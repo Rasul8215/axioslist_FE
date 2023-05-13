@@ -20,7 +20,7 @@ const LogIn=()=>{
    }
    const homepage= async (e)=>{
     e.preventDefault()
-    const res=await (await fetch('http://localhost:3000/login',{body:JSON.stringify(user),method:"POST", headers: {
+    const res=await (await fetch('https://axioslistbe-2--rasul8215.repl.co/login',{body:JSON.stringify(user),method:"POST", headers: {
         "Content-Type": "application/json",
       },})).text()
       console.log(res)
