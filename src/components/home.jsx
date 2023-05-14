@@ -6,7 +6,7 @@ import axios from "axios";
 
 const Home = () => {
   const [datas, setDatas] = useState([]);
-  const [page, setpage] = useState(3);
+  const [page, setpage] = useState(5);
   const [det, setdet] = useState("");
   const navigate = useNavigate();
   const navi = useNavigate();
