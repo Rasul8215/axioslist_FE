@@ -20,7 +20,7 @@ const LogIn=()=>{
    }
    const homepage= async (e)=>{
     e.preventDefault()
-    const res=await (await fetch('https://axioslistbe1--rasul8215.repl.co/login',{body:JSON.stringify(user),method:"POST", headers: {
+    const res=await (await fetch('https://axioslistbe1-1--rasul8215.repl.co/login',{body:JSON.stringify(user),method:"POST", headers: {
         "Content-Type": "application/json",
       },})).text()
       console.log(res)
